@@ -1,0 +1,39 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boardGame {
+    margin-top: 4vw;
+    display: grid;
+    border: solid 1px black;
+    width: 40vw;
+    height: 40vw;
+    grid-template-columns: auto auto auto;
+}
+
+.gameCell {
+    display: flex;
+    border: solid 1px black;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerTurn {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#scoreTracker {
+    border: solid 3px black;
+    border-radius: 5%;
+    height: 30rem;
+    width: 18rem;
+    display: inline-block;
+}
